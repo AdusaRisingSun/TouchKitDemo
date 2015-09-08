@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "DragView.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    DragView *dragView=[[DragView alloc]initWithImage:[UIImage imageNamed:@"icotrip-toyz-20.png"]];
+  
+    dragView.frame=CGRectMake(0, 50, 400, 300);
+    [self.view addSubview:dragView];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

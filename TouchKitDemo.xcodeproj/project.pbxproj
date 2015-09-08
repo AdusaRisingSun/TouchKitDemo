@@ -15,6 +15,8 @@
 		39E8971D1B8EA7D300F82274 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39E8971C1B8EA7D300F82274 /* Images.xcassets */; };
 		39E897201B8EA7D300F82274 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39E8971E1B8EA7D300F82274 /* LaunchScreen.xib */; };
 		39E8972C1B8EA7D300F82274 /* TouchKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E8972B1B8EA7D300F82274 /* TouchKitDemoTests.m */; };
+		39E897361B8ED6B500F82274 /* icotrip-toyz-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E897351B8ED6B500F82274 /* icotrip-toyz-20.png */; };
+		39E897391B8ED71900F82274 /* DragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E897381B8ED71900F82274 /* DragView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,9 @@
 		39E897251B8EA7D300F82274 /* TouchKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E8972A1B8EA7D300F82274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39E8972B1B8EA7D300F82274 /* TouchKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchKitDemoTests.m; sourceTree = "<group>"; };
+		39E897351B8ED6B500F82274 /* icotrip-toyz-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icotrip-toyz-20.png"; sourceTree = "<group>"; };
+		39E897371B8ED71900F82274 /* DragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragView.h; sourceTree = "<group>"; };
+		39E897381B8ED71900F82274 /* DragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +92,13 @@
 				39E897111B8EA7D200F82274 /* AppDelegate.m */,
 				39E897161B8EA7D300F82274 /* ViewController.h */,
 				39E897171B8EA7D300F82274 /* ViewController.m */,
+				39E897371B8ED71900F82274 /* DragView.h */,
+				39E897381B8ED71900F82274 /* DragView.m */,
 				39E897191B8EA7D300F82274 /* Main.storyboard */,
 				39E8971C1B8EA7D300F82274 /* Images.xcassets */,
 				39E8971E1B8EA7D300F82274 /* LaunchScreen.xib */,
 				39E897131B8EA7D300F82274 /* TouchKitDemo.xcdatamodeld */,
+				39E897351B8ED6B500F82274 /* icotrip-toyz-20.png */,
 				39E8970C1B8EA7D200F82274 /* Supporting Files */,
 			);
 			path = TouchKitDemo;
@@ -204,6 +212,7 @@
 			files = (
 				39E8971B1B8EA7D300F82274 /* Main.storyboard in Resources */,
 				39E897201B8EA7D300F82274 /* LaunchScreen.xib in Resources */,
+				39E897361B8ED6B500F82274 /* icotrip-toyz-20.png in Resources */,
 				39E8971D1B8EA7D300F82274 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,6 +235,7 @@
 				39E897121B8EA7D200F82274 /* AppDelegate.m in Sources */,
 				39E897181B8EA7D300F82274 /* ViewController.m in Sources */,
 				39E8970F1B8EA7D200F82274 /* main.m in Sources */,
+				39E897391B8ED71900F82274 /* DragView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
